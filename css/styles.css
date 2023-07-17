@@ -94,12 +94,10 @@ ul {
 .hero-section {
   background-color: var(--navyblue);
   height: 600px;
-  position: relative;
 }
 
 .footer-section {
   background-color: var(--navyblue);
-  height: 312px;
 }
 
 .hero-title {
@@ -197,7 +195,6 @@ ul {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   height: 72px;
 }
 
@@ -248,6 +245,7 @@ ul {
 
 .team-container {
   padding-top: 120px;
+  margin-bottom: 120px;
 }
 
 .team-list {
@@ -266,12 +264,11 @@ ul {
 }
 
 .footer-container {
-  padding-top: 101.5px;
-}
-
-.footer-text {
-  width: 264px;
-  padding-top: 17.5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 312px;
+  gap: 16px;
 }
 
 /* CSS Positioning of Portfolio */
