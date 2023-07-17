@@ -111,7 +111,6 @@ ul {
 
 .hero-section {
   background-color: var(--navyblue);
-  /* height: 600px; */
   padding: 188px 0;
 }
 
@@ -213,7 +212,6 @@ ul {
 
 .header {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
-  /* padding: 24px 0; */
 }
 
 .container {
@@ -224,8 +222,7 @@ ul {
 
 .header-container {
   display: flex;
-  justify-content: space-around;
-  /* height: 72px; */
+  justify-content: space-between;
 }
 
 .header-navigation {
@@ -241,7 +238,6 @@ ul {
 
 .header-address {
   display: flex;
-  /* margin-left: auto; */
   gap: 40px;
   align-items: center;
 }
@@ -253,35 +249,19 @@ ul {
   justify-content: center;
 }
 
-.features-container {
-  /* margin-top: 120px; */
-}
-
 .features-list {
   display: flex;
   gap: 20px;
 }
 
-.what-we-do-container {
-  /* margin-top: 120px; */
-}
-
 .what-we-do-list {
   display: flex;
   justify-content: space-between;
-  /* margin-top: 72px;
-  margin-bottom: 120px; */
-}
-
-.team-container {
-  /* padding-top: 120px;
-  margin-bottom: 120px; */
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  /* padding-top: 72px; */
   text-align: center;
 }
 
@@ -305,8 +285,6 @@ ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* height: 312px;
-  gap: 16px; */
 }
 
 /* CSS Positioning of Portfolio */
@@ -314,17 +292,15 @@ ul {
 .filter {
   margin-bottom: 72px;
   display: flex;
-  /* padding: 12px 24px; */
   justify-content: center;
   align-items: center;
   gap: 24px;
-  /* margin: 96px 0 72px 0; */
 }
 
 .project {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
   justify-content: center;
   align-items: center;
 }
